@@ -26,18 +26,18 @@ int main() {
   int output;
 
   cout << "Please enter 10 elements ASCENDING order" << endl; // like:  1 2 3 4 5 6 7 8 9 10
-  for (int i = 0; i < 10; i++) {
+  for (int i = 1; i <= 10; i++) {
     cin >> myarr[i];
   }
-  cout << "Please enter an element to search" << endl;
+  cout << "Please enter an element to search : " ;
   cin >> num;
 
-  output = binarySearch(myarr, 0, 9, num);
+  output = binarySearch(myarr, 1, 10, num);
 
   if (output == -1) {
-    cout << "No Match Found" << endl;
+    cout << "No Match Found";
   } else {
-    cout << "Match found at position: " << output << endl;    
+    cout << "Match found at position : " << output ;    
   }
 
   return 0;
