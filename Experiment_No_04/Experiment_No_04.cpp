@@ -41,7 +41,7 @@ int main()
 	int n ;
 	cout << "Enter the size of Array : ";
 	cin>>n;
-    cout << "Please enter " << n << " number : ";   // Like: 5 9 15 42 85
+    cout << "Please enter " << n << " number : ";   // Like: 5 88 4 454111 1 3
 	int arr[n];
 	for( int i = 0 ; i < n; i++){
 		cin>> arr[i];
