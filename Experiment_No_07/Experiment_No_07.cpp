@@ -4,8 +4,8 @@
 using namespace std;
 int main()
 {
-    int arr[50], i, elem, pos, tot;
-    cout<<"Enter the Size for Array: ";
+    int arr[51], i, elem, pos, tot;
+    cout<<"Enter the Size for Array (max. 50): ";
     cin>>tot;
     cout<<"Enter "<<tot<<" Array Elements: ";
     for(i=0; i<tot; i++)
@@ -18,7 +18,7 @@ int main()
         arr[i] = arr[i-1];
     arr[i] = elem;
     tot++;
-    cout<<"\nThe New Array is: ";
+    cout<<"\nThe New Array is:\n";
     for(i=0; i<tot; i++)
         cout<<arr[i]<<"  ";
     cout<<endl;
