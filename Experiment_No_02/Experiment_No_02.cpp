@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int n, i, arr[50], j, temp;
-    cout<<"Enter the Size (max. 50): ";
+    cout<<"Enter the Array size (max. 50): ";
     cin>>n;
     cout<<"Enter "<<n<<" Numbers: ";  // Like: 9 5 8 12 3
     for(i=0; i<n; i++)

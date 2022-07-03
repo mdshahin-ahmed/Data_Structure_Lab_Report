@@ -6,7 +6,7 @@ using namespace std;
 int main(){
     int input[100], count, i, num;
        
-    cout << "Enter Number of Elements in Array : ";
+    cout << "Enter Number of Elements in Array (max. 100): ";
     cin >> count;
      
     cout << "Please enter " << count << " number ASCENDING order : ";   // Like: 5 9 15 42 85
